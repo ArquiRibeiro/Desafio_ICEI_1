@@ -1,0 +1,42 @@
+body{
+    margin: 0px auto;
+    max-width: 800px;
+}
+
+*{
+    box-sizing: border-box;
+    scroll-bar-width: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+p{
+    /*max-width: 60ch;*/
+}
+
+table{
+    min-width: 100%;
+}
+
+img{
+    display: block;
+}
+
+.jp-CodeCell{
+    margin-bottom: 64px;
+}
+
+
+.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output > div{
+    max-width: 800px;
+    overflow: scroll;
+    margin: 0px auto;    
+}
+
+.jp-MarkdownOutput img{
+    margin: 0px auto;
+}
